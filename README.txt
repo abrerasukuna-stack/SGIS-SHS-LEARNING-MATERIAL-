@@ -1,19 +1,41 @@
-SHS LEARNINGS - IMPROVED WEBSITE
+NETLAB ACADEMY — CSS DEPLOYMENT TUTORIAL WEBSITE
 
-This version keeps all website files in the same folder so it is easier to upload from an Android phone.
+INCLUDED MODULES
+1. Server & Client Deployment
+2. Windows Server and Active Directory concepts
+3. DNS and DHCP
+4. Print Server
+5. File Sharing and Permissions
+6. Network Troubleshooting
+7. Interactive quiz with scoring and progress indicator
 
-Upload/replace these files at the ROOT of your GitHub repository:
-- index.html
-- lessons.html
-- quizzes.html
-- reviewers.html
-- videos.html
-- style.css
-- main.js
+FILES
+index.html
+server-client.html
+windows-server.html
+network-services.html
+print-server.html
+file-sharing.html
+troubleshooting.html
+quiz.html
+style.css
+script.js
 
-IMPORTANT: Extract this ZIP first. Upload the files inside it, not the ZIP itself.
-On GitHub, open your repository > Add file > Upload files. Select all seven files above, then commit the changes to the main branch. If asked whether to replace existing files, confirm.
+PREVIEW
+- Extract the ZIP.
+- Open index.html in a web browser.
+- Google Fonts needs internet for the intended typography; fallback fonts are included.
 
-Wait 1-2 minutes, then refresh the website. If it still looks old, open the site in an Incognito tab or clear the browser cache.
+GITHUB PAGES
+1. Open your repository.
+2. Upload the CONTENTS of the extracted folder to the repository root.
+3. Make sure index.html is directly in the root, not inside a second nested folder.
+4. Commit changes.
+5. In repository Settings > Pages, choose the correct deployment source/branch if not already configured.
+6. Wait for the deployment to finish, then open the Pages URL.
 
-Includes modern navy-blue/white styling, responsive mobile navigation, resource cards, and a working sample quiz.
+IMPORTANT
+- This is an educational reference, not a substitute for the current official Microsoft documentation.
+- Steps can vary by Windows version, role, policy, and lab setup.
+- Use isolated lab PCs/VMs and get administrator permission before changing DNS, DHCP, Active Directory, firewall, or production network settings.
+- Never start an unapproved DHCP server on a live network.
