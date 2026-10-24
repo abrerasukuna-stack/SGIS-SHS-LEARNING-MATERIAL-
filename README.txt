@@ -1,40 +1,19 @@
-SHS LEARNINGS - SCHOOL PROJECT STARTER
+SHS LEARNINGS - IMPROVED WEBSITE
 
-WHAT'S INCLUDED
-- index.html: home page
-- lessons.html: searchable sample lessons
-- quizzes.html: working 5-question multiple-choice quiz
-- reviewers.html: PDF reviewer listing (add your own PDFs)
-- videos.html: educational video topic links
-- css/style.css: responsive website styling
-- js/main.js: mobile menu, current year, lesson search/filter
-- js/quiz.js: quiz questions, answer checking, score and restart
+This version keeps all website files in the same folder so it is easier to upload from an Android phone.
 
-HOW TO RUN
-1. Extract the ZIP file.
-2. Open the SHS-Learnings folder.
-3. Open index.html in a browser.
-4. Navigate using the top menu.
-5. To edit the website, open the HTML/CSS/JS files in a code editor.
+Upload/replace these files at the ROOT of your GitHub repository:
+- index.html
+- lessons.html
+- quizzes.html
+- reviewers.html
+- videos.html
+- style.css
+- main.js
 
-ON ANDROID
-- Extract the ZIP using your file manager.
-- Install/use a code editor that supports HTML, CSS and JavaScript, or upload the files to an online code editor.
-- Preview index.html in the editor/browser.
-- Some mobile browsers may restrict local files; if that happens, use a local preview feature or publish to a static hosting service.
+IMPORTANT: Extract this ZIP first. Upload the files inside it, not the ZIP itself.
+On GitHub, open your repository > Add file > Upload files. Select all seven files above, then commit the changes to the main branch. If asked whether to replace existing files, confirm.
 
-ADD PDF REVIEWERS
-Put your own files in materials/ using these filenames, or change the links in reviewers.html:
-- study-skills-reviewer.pdf
-- digital-literacy-reviewer.pdf
-- academic-reading-reviewer.pdf
+Wait 1-2 minutes, then refresh the website. If it still looks old, open the site in an Incognito tab or clear the browser cache.
 
-PUBLISH ONLINE
-You can deploy static HTML/CSS/JS files to a static hosting provider such as GitHub Pages or Netlify. Follow the provider's current instructions. A public website URL makes the project accessible to classmates.
-
-IMPORTANT LIMITATIONS
-- Quiz scores are not saved to a database or sent to a teacher.
-- No login or admin panel is included.
-- Do not upload personal student data.
-- Check all educational materials with teachers and cite sources.
-- Curriculum and strand offerings may change; verify them with your school.
+Includes modern navy-blue/white styling, responsive mobile navigation, resource cards, and a working sample quiz.
